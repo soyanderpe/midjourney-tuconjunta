@@ -67,17 +67,17 @@ export default function Main(children: JSX.Element) {
       hashed={false}>
       <ProLayout
         logo={"logo.png"}
-        title="AI Draw"
+        title="Acceso De Midjourney"
         style={{ minHeight: '100vh' }}
         route={ROUTES}
         avatarProps={{
           src: 'logo.png',
-          title: 'Eric',
+          title: 'TuConjunta',
         }}
         actionsRender={(props) => {
           if (props.isMobile) return [];
           return [
-            <Link href="https://github.com/erictik/midjourney-ui" key="about">
+            <Link href="https://tuconjunta.com" key="about">
              <GithubFilled  style={{
               fontSize: 24,
              }}/>
@@ -95,7 +95,7 @@ export default function Main(children: JSX.Element) {
                 paddingBlockStart: 12,
               }}
             >
-              Power by Midjourney
+              Funciona gracias a Midjourney
             </p>
           );
         }}

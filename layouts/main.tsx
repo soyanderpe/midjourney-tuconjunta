@@ -20,8 +20,8 @@ const ROUTES: Route = {
   routes: [
     {
       path: '/',
-      name: 'MidJourney',
-      icon: <SmileOutlined />,
+      name: 'Generar Imagen',
+      icon: <PictureOutlined />,
     },
   ],
 }
@@ -78,7 +78,7 @@ export default function Main(children: JSX.Element) {
           if (props.isMobile) return [];
           return [
             <Link href="https://tuconjunta.com" key="about">
-             <GithubFilled  style={{
+             <LinkOutlined  style={{
               fontSize: 24,
              }}/>
             </Link>,

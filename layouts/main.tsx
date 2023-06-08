@@ -6,6 +6,8 @@ import {
   SmileOutlined,
   GithubFilled,
   PictureFilled,
+  PictureOutlined,
+  LinkOutlined,
 
 } from '@ant-design/icons'
 
